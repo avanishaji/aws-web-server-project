@@ -29,7 +29,7 @@ The following components were created and configured:
 * **Route Table** configured with route `0.0.0.0/0 → IGW`
 * **Security Group** with controlled access rules
 * **EC2 Instance** running Red Hat Enterprise Linux
-
+![vpc](screenshots/vpc.png)
 ---
 
 ## ☁️ AWS Services Used
@@ -49,7 +49,8 @@ The following components were created and configured:
 * **Region:** ap-south-1 (Mumbai)
 * **Public IP:** Enabled
 * **Key Pair:** Used for secure SSH access
-
+  
+![EC2](screenshots/ec2.png)
 ---
 
 ## 🔐 Security Configuration
@@ -80,6 +81,8 @@ systemctl enable httpd
 # Check status
 systemctl status httpd
 ```
+
+![apache](screenshots/apache.png)
 
 ---
 
@@ -125,6 +128,9 @@ systemctl restart httpd
 ## 🌍 Output
 
 The web page was successfully hosted and accessed through a browser using the EC2 instance’s public IP address.
+
+
+![website](screenshots/output.png)
 
 ---
 
